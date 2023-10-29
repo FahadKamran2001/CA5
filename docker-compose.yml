@@ -6,7 +6,7 @@ services:
     links:
       - db
     ports:
-      - "5000:5000"
+      - "8080:8080"
     environment:
       - MYSQL_HOST=db
       - MYSQL_PORT=3300
