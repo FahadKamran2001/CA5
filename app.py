@@ -17,4 +17,4 @@ def display_data():
     return table_html
 
 if _name_ == '_main_':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8080)
